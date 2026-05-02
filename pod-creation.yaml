@@ -11,8 +11,3 @@ spec:
       image: nginx:latest
       ports:
         - containerPort: 80
-  containers:
-    - name: web01
-      image: nginx:latest
-      ports:
-        - containerPort: 80

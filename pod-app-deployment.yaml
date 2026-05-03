@@ -1,12 +1,12 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-deployment
+  name: my-app-deployment
   labels:
     app: my-app
     key: front-end
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: my-app
